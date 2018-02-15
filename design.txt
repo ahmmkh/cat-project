@@ -17,3 +17,4 @@ cat_program :
     varible 
     -after that read function will specify how many bytes it reads 
     - then use that value to write to the stdout stream easily as the size of the buffer
+go to https://github.com/ahmmkh/cat-project
