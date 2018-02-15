@@ -1,4 +1,4 @@
-# Project Title
+# Cat-project
 
 clone cat program using c system calls only
 ## Getting Started
