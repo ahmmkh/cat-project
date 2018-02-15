@@ -1,0 +1,19 @@
+- first check there is 2 mode 
+stdin mode and file mode 
+
+- file mode : 
+    when detect more than one argument
+-stdin mode : 
+    when there is no argument provided 
+
+if in file mode : 
+    loop through every argument and perform the cat program in it 
+if in stdin mode :
+    take the input and then print it again
+
+cat_program : 
+    -open a file and save it's descriptor in an integer 
+    -use that descriptor to read a chunk of the file accordding to the chunk storage
+    varible 
+    -after that read function will specify how many bytes it reads 
+    - then use that value to write to the stdout stream easily as the size of the buffer
