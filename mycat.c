@@ -18,7 +18,7 @@ void print_char_star_err(char *buf)
 }
 void cat_read(char *f_name)
 {
-    char storage[512];
+    char storage[SIZ];
     int file = open(f_name, O_RDONLY);
     if (-1 == file)
     {
@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 
     if (argc < 2)
     {
-        char in_store[512];
+        char in_store[SIZ];
         int ret_size;
         // the <file1> file2 case
         while ((ret_size = read(0, in_store, SIZ)) != 0)
