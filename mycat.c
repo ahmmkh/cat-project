@@ -38,9 +38,7 @@ void cat_read(char *f_name)
 }
 int main(int argc, char *argv[])
 {
-    //    printf("%i",argc);
-    // print_char_star(argv[0]);
-    //write(1,"ahmed",5);
+
     if (argc < 2)
     {
         char in_store[512];
